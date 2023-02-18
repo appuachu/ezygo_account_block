@@ -1,6 +1,6 @@
 ## Achu Founder and CEO of CyberFox
 
-# Ezygo
+# Ezygo Account Blocker
 
 This is the 2nd version of ezygo hacking tool in first tool it is used to bypass login and the otp but now the bug is solved.
 So this tool is used to block the user account for 2 hours you just want the username or email of teracher and users and set a time, in each time account will block for 2 hours.
