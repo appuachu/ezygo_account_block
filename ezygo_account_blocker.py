@@ -22,7 +22,7 @@ def send_request(user, pwd):
 
 for i in range(num_requests):
     print(f"Sending request {i+1}/{num_requests}")
-    print("----------------------------------------------------------------------------------------")
+    print("+++++++++++++++-----------------------------------------CYBERFOX-----------------------------------------------+++++++++++++++")
     time.sleep(1)
     with concurrent.futures.ThreadPoolExecutor() as executor:
         for user in usernames:
