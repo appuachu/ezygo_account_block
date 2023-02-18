@@ -15,7 +15,7 @@ with open(pass_file, 'r') as f:
 def send_request(user, pwd):
     data = {'username': user, 'password': pwd}
     response = requests.post(url, json=data)
-    print(f'Response for {user} with password {pwd}: {response.text}')
+    print(f' {user} : {response.text}')
 
 with concurrent.futures.ThreadPoolExecutor() as executor:
     for user in usernames:
