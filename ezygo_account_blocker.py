@@ -14,7 +14,8 @@ with open('pass.txt', 'r') as f:
 def send_request(user, pwd):
     data = {'username': user, 'password': pwd}
     response = requests.post(url, json=data)
-    print(f' {user} : {response.text}')
+    if "Your account has been temporarly blocked" in response.text:
+        print(f' {user} : Your account has been temporarly blocked for 2 houres')
 
 with concurrent.futures.ThreadPoolExecutor() as executor:
     for user in usernames:
