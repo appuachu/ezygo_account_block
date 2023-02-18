@@ -21,4 +21,4 @@ python ezygo_account_blocker.py
 ```
 
 
-<img align="right" alt="coding" width="560"  src="https://github.com/appuachu/ezygo_account_blocker/blob/main/blocker.png" >
+<img align="center" alt="coding" width="960"  src="https://github.com/appuachu/ezygo_account_blocker/blob/main/blocker.png" >
