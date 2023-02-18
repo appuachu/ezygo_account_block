@@ -2,7 +2,6 @@ import requests
 import concurrent.futures
 
 user_file = input("Enter the user file: ")
-pass_file = input("Enter the password file: ")
 
 url = 'https://production.api.ezygo.app/api/v1/Xcr45_salt/login'
 
